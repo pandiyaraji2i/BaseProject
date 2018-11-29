@@ -16,6 +16,8 @@ DerivedData/
 *.perspectivev3
 !default.perspectivev3
 xcuserdata/
+*xcworkspace/xcuserdata/*
+*/xcuserdata/*
 
 ## Other
 *.moved-aside
@@ -31,6 +33,17 @@ xcuserdata/
 ## Playgrounds
 timeline.xctimeline
 playground.xcworkspace
+
+/wp-content/uploads
+wp-config.php
+.htaccess
+
+## OS X files
+.DS_Store
+.DS_Store?
+.Trashes
+.Spotlight-V100
+*.swp
 
 # Swift Package Manager
 #
