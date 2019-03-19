@@ -1,0 +1,16 @@
+//
+//  Staging.xcconfig
+//  Starter
+//
+//  Created by Durai on 19/03/19.
+//  Copyright © 2019 Durai-Ideas2IT. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+
+APP_NAME = Base Staging
+APP_VERSION = 0.1
+APP_BUNDLE_ID = com.ideas2it.StarterStaging
+BASE_URL = http:\/\/192.68.15.39:3000/api/staging

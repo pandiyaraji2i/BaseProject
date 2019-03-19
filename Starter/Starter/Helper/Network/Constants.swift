@@ -72,7 +72,7 @@ struct CommonValues {
 struct URLConstants{
     
     // SOCKET URL
-    static let BASEURL = ""
+    static let BASEURL:String = (Bundle.main.infoDictionary?["BASEURL"] as? String)?.replacingOccurrences(of: "\\", with: "") ?? ""
    
 }
 
