@@ -69,10 +69,14 @@ struct CommonValues {
     
 }
 
-struct URLConstants{
+struct URLConstants {
     
     // SOCKET URL
-    static let BASEURL:String = (Bundle.main.infoDictionary?["BASEURL"] as? String)?.replacingOccurrences(of: "\\", with: "") ?? ""
+//    static let BASEURL:String = (Bundle.main.infoDictionary?["BASEURL"] as? String)?.replacingOccurrences(of: "\\", with: "") ?? ""
+    static let BASEURL = "https://jsonplaceholder.typicode.com"
+    
+    // Get users list
+    static let getUsers = "/users"
    
 }
 

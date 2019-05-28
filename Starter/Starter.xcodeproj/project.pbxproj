@@ -32,6 +32,8 @@
 		85352AB321AFC9C9000D868F /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85352A7B21AFC9C9000D868F /* Constants.swift */; };
 		85352AB521AFC9C9000D868F /* NetworkUtilities.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85352A7D21AFC9C9000D868F /* NetworkUtilities.swift */; };
 		85352AB621AFC9C9000D868F /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85352A7E21AFC9C9000D868F /* Reachability.swift */; };
+		FB07341C229D488400069943 /* IITableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB07341B229D488400069943 /* IITableView.swift */; };
+		FB07341E229D493300069943 /* RefreshingTableViewDemoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB07341D229D493300069943 /* RefreshingTableViewDemoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +67,8 @@
 		85352A7B21AFC9C9000D868F /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		85352A7D21AFC9C9000D868F /* NetworkUtilities.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkUtilities.swift; sourceTree = "<group>"; };
 		85352A7E21AFC9C9000D868F /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		FB07341B229D488400069943 /* IITableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IITableView.swift; sourceTree = "<group>"; };
+		FB07341D229D493300069943 /* RefreshingTableViewDemoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefreshingTableViewDemoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +87,7 @@
 			children = (
 				04C6738621B003CE007D391B /* IIButton.swift */,
 				04C6738821B003EB007D391B /* IILabel.swift */,
+				FB07341B229D488400069943 /* IITableView.swift */,
 				04C6738A21B003F7007D391B /* IITextField.swift */,
 			);
 			path = UIKitElements;
@@ -109,6 +114,7 @@
 			children = (
 				85352A4521AFC9C9000D868F /* Helper */,
 				85352A3321AFC906000D868F /* AppDelegate.swift */,
+				FB07341D229D493300069943 /* RefreshingTableViewDemoViewController.swift */,
 				85352A3521AFC906000D868F /* ViewController.swift */,
 				85352A3721AFC906000D868F /* Main.storyboard */,
 				85352A3A21AFC910000D868F /* Assets.xcassets */,
@@ -233,7 +239,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB07341C229D488400069943 /* IITableView.swift in Sources */,
 				85352A9D21AFC9C9000D868F /* UIViewControllerExtensions.swift in Sources */,
+				FB07341E229D493300069943 /* RefreshingTableViewDemoViewController.swift in Sources */,
 				85352A3621AFC906000D868F /* ViewController.swift in Sources */,
 				04C6738921B003EB007D391B /* IILabel.swift in Sources */,
 				85352A9421AFC9C9000D868F /* DictionaryExtensions.swift in Sources */,
